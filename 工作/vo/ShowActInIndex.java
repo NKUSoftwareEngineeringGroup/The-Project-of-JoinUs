@@ -1,21 +1,11 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    ShowActInIndex.java
- *作者:	  Pu Meng
- *日期:	  5/6/2015
- *文件描述:   对应Users和Activities表连接，显示用户发起的或参与的活动
- *修改历史:
-           日期1 5/6/2015 Pu Meng	   创建.
-          
- ************************************************/
-package edu.newdesign.joinus.vo;
+package com.icode.chengcheng.vo;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class ShowActInIndex implements Serializable {
-     //用户账号，姓名，头像，活动编号，发起人账号，活动名称，活动主题，活动发布日期，活动类型，活动内容，活动日期，活动截止日期
+     
       private String uccid;
       private String uname;
       private String uphoto;
@@ -49,7 +39,6 @@ public class ShowActInIndex implements Serializable {
 		this.adate = adate;
 		this.adeadline = adeadline;
 	}
-	  //对属性值的存取操作
 	public String getUccid() {
 		return uccid;
 	}

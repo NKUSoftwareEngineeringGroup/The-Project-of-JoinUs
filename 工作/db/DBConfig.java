@@ -1,14 +1,4 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    Attend.java
- *作者:	  Pu Meng
- *日期:	   24/5/2015
- *文件描述:   从db.cfg.properties文件读出对数据库的设置
- *修改历史:
-           日期1 24/5/2015 Pu Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.db;
+package com.icode.chengcheng.db;
 
 import java.io.IOException;
 import java.util.Properties;

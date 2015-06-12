@@ -1,21 +1,10 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    Comments.java
- *作者:	   Pu Meng
- *日期:	   28/5/2015
- *文件描述:   对应数据库的Comments表，表明评论这一实体
- *修改历史:
-           日期1 28/5/2015 Pu Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class Comments implements Serializable {
-	//对应Comments表的数据字段
 	private int cid;
 	private int cact;
 	private String cuser_from;
@@ -38,7 +27,7 @@ public class Comments implements Serializable {
 		this.cdate = cdate;
 		this.cuser_to = cuser_to;
 	}
-	//对属性值的存取操作
+
 	public int getCid() {
 		return cid;
 	}

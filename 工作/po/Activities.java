@@ -1,21 +1,11 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:     Activities.java
- *作者:	   Pu Meng
- *日期:	   28/5/2015
- *文件描述:   对应数据库的activities表，代表活动
- *修改历史:
-           日期1 28/5/2015 Pu Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class Activities implements Serializable {
-	//对应activities表的数据字段
+	
 	private int aid;
 	private String owner_id;
 	private Date adeadline;
@@ -65,7 +55,7 @@ public class Activities implements Serializable {
 		this.aname = aname;
 		this.avisit_num = avisit_num;
 	}
-    //对属性值的存取操作
+
 	public int getAid() {
 		return aid;
 	}

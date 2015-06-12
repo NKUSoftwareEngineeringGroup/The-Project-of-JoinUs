@@ -1,20 +1,10 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    Resources.java
- *作者:	   Pu Meng
- *日期:	   30/5/2015
- *文件描述:   对应数据库的Resources表，表明资源这一实体
- *修改历史:
-           日期1 30/5/2015 Pu Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
 public class Resources implements Serializable {
-	//对应Resources表的数据字段
+	
 	private int resid;
 	private int restype;
 	private String resurl;
@@ -28,7 +18,6 @@ public class Resources implements Serializable {
 		this.restype = restype;
 		this.resurl = resurl;
 	}
-	//对属性值的存取操作
 	public int getResid() {
 		return resid;
 	}

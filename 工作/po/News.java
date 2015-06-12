@@ -1,21 +1,10 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    News.java
- *作者:	  Pu Meng
- *日期:	   28/5/2015
- *文件描述:   对应数据库的News表，表明消息这一实体
- *修改历史:
-           日期1 28/5/2015 Pu Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class News implements Serializable {
-	//对应News表的数据字段
 	private int nid;
 	private String nuser;
 	private String nfrom;
@@ -38,7 +27,7 @@ public class News implements Serializable {
 		this.ncontent = ncontent;
 		this.ndate = ndate;
 	}
-	//对属性值的存取操作
+
 	/**
 	 * @return the nid
 	 */

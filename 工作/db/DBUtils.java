@@ -1,14 +1,4 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    Attend.java
- *作者:	   Pu Meng
- *日期:	   24/5/2015
- *文件描述:   对数据库实行增删改查
- *修改历史:
-           日期1 24/5/2015  PU Meng	   创建.
-           
- ************************************************/
-package edu.newdesign.joinus.db;
+package com.icode.chengcheng.db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

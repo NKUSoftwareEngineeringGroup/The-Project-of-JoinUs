@@ -1,4 +1,4 @@
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 import java.util.Date;

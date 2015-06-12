@@ -1,20 +1,9 @@
-﻿/**************************************************
- *Copyright (c) 2015 NewDesign, All Rights Reserved.
- *文件名:    Belong.java
- *作者:	   Pu Meng
- *日期:	   28/5/2015
- *文件描述:   对应数据库的Belong表，表明活动拥有的表现这一关系
- *修改历史:
-           日期1 28/5/2015 PU Meng创建.
-           
- ************************************************/
-package edu.newdesign.joinus.po;
+package com.icode.chengcheng.po;
 
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
 public class Belong implements Serializable {
-	//对应Belong表的数据字段
 	private int bid;
 	private int bact;
 	private int btag;
@@ -30,7 +19,7 @@ public class Belong implements Serializable {
 		this.bact = bact;
 		this.btag = btag;
 	}
-	//对属性值的存取操作
+
 	/**
 	 * @return the bid
 	 */
