@@ -1,4 +1,14 @@
-package com.icode.chengcheng.db;
+﻿/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    ConnectionManager.java
+ *作者:	   Pu Meng
+ *日期:	  24/5/2015
+ *文件描述:   用来打开和关闭数据库连接
+ *修改历史:
+           日期1 24/5/2015  Pu Meng	   创建.
+           
+ ************************************************/
+package edu.newdesign.joinus.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

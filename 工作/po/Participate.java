@@ -1,10 +1,21 @@
-package com.icode.chengcheng.po;
+﻿/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    Participate.java
+ *作者:	   Pu Meng
+ *日期:	   30/5/2015
+ *文件描述:   对应数据库的Participate表，表明用户参与活动的关系
+ *修改历史:
+           日期1 30/5/2015 Pu Meng	   创建.
+           
+ ************************************************/
+package edu.newdesign.joinus.po;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class Participate implements Serializable {
+	//对应Participate表的数据字段
 	private int pid;
 	private String puser;
 	private int pact;
@@ -24,7 +35,7 @@ public class Participate implements Serializable {
 		this.ptype = ptype;
 		this.pdate = pdate;
 	}
-
+	//对属性值的存取操作
 	/**
 	 * @return the pid
 	 */
