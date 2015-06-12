@@ -1,11 +1,21 @@
-package com.icode.chengcheng.vo;
+﻿/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    ShowUserCommAct.java
+ *作者:	   Pu Meng
+ *日期:	   6/6/2015
+ *文件描述:   对应Users和Comments表连接
+ *修改历史:
+           日期 6/6/2015  Pu Meng	   创建.
+           
+ ************************************************/
+package edu.newdesign.joinus.vo;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class ShowUserCommAct implements Serializable {
-
+    //用户姓名，用户头像，评论编号，评论来自账号，评论发送账号，评论内容，评论日期，评论活动编号
 	private String uname;
 	private String photo;
 	private int cid;
@@ -31,6 +41,7 @@ public class ShowUserCommAct implements Serializable {
 		this.cdate = cdate;
 		this.aid = aid;
 	}
+	  //对属性值的存取操作
 	public String getUname() {
 		return uname;
 	}

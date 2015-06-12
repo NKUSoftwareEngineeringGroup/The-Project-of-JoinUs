@@ -1,9 +1,20 @@
-package com.icode.chengcheng.po;
+﻿/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    Attend.java
+ *作者:	   Pu Meng
+ *日期:	   28/5/2015
+ *文件描述:   对应数据库的Attend表，代表用户参与聊天室这一关系
+ *修改历史:
+           日期128/5/2015 Pu Meng	   创建.
+           
+ ************************************************/
+package edu.newdesign.joinus.po;
 
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
 public class Attend implements Serializable{
+	//对应attend表的数据字段
 	private int jid;
 	private String juser;
 	private int jroom;
@@ -18,6 +29,7 @@ public Attend(int jid,String juser,int jroom){
 	this.juser=juser;
 	this.jroom=jroom;
 }
+//对属性值的存取操作
 public int getJid(){
 	return jid;
 }

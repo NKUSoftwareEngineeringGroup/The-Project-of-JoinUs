@@ -1,4 +1,14 @@
-package com.icode.chengcheng.vo;
+﻿
+/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    ShowActTag.java
+ *作者:	  Pu Meng
+ *日期:	   5/6/2015
+ *文件描述:   对应Users和Activities和Tags表连接
+ *修改历史:
+           日期1 5/6/2015 Pu Meng   创建.
+           
+ ************************************************/package edu.newdesign.joinus.vo;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,7 +19,7 @@ import java.util.Date;
  */
 @SuppressWarnings("serial")
 public class ShowActTag implements Serializable {
-	
+	//发起人账号，发起人姓名，发起人头像，活动名称，活动日期，活动地址，标签编号，标签名称，标签内容，活动主题
 	private String owner_id;
 	private String uname;
 	private String uphoto;
@@ -41,6 +51,7 @@ public class ShowActTag implements Serializable {
 		this.acontent = acontent;
 		this.atopic = atopic;
 	}
+	  //对属性值的存取操作
 	public String getOwner_id() {
 		return owner_id;
 	}

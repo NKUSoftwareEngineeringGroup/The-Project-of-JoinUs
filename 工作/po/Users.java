@@ -1,11 +1,21 @@
-package com.icode.chengcheng.po;
+﻿/**************************************************
+ *Copyright (c) 2015 NewDesign, All Rights Reserved.
+ *文件名:    Users.java
+ *作者:	   Pu Meng
+ *日期:	   30/5/2015
+ *文件描述:   对应数据库的Users表，表明用户这一实体
+ *修改历史:
+           日期1 30/5/2015 Pu Meng   创建.
+          
+ ************************************************/
+package edu.newdesign.joinus.po;
 
 import java.io.Serializable;
 import java.util.Date;
 
 @SuppressWarnings("serial")
 public class Users implements Serializable {
-
+	//对应Users表的数据字段
 	private String uccid;
 	private String uname;
 	private String upwd;
@@ -41,6 +51,7 @@ public class Users implements Serializable {
 		this.ustate = ustate;
 		this.udate = udate;
 	}
+	//对属性值的存取操作
 	public String getUccid() {
 		return uccid;
 	}
